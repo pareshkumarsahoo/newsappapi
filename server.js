@@ -37,7 +37,7 @@ app.use('/api/category', categoryRoutes);
 
 app.get('*', function(req, res){
   res.status(404).json({
-    msg: "API Working !"
+    msg: "API Working Fine!"
   });
 });
 
